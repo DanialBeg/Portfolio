@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle}</title>
+        <title>Danial's Portfolio</title>
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
@@ -17,9 +17,9 @@ export default function Home() {
         </p>
           Currently, I'm looking for a summer 2021 Software Engineering Internship opportunity!
         <p>
-          Feel free to reach out if you would like to connect through  
-          <a href="mailto:dbeg001@ucr.edu" target="_blank"> email </a> 
-          or <a href="https://www.linkedin.com/in/danialbeg/" target="_blank">LinkedIn</a>!
+          Feel free to reach out if you would like to connect 
+          through  <a href="mailto:dbeg001@ucr.edu" target="_blank">email</a> or <a href="https://www.linkedin.com/in/danialbeg/" 
+            target="_blank">LinkedIn</a>!
         </p>
       </section>
     </Layout>

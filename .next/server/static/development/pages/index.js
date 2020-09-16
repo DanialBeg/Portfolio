@@ -144,7 +144,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const name = 'Danial Beg';
-const siteTitle = 'Next.js Sample Website';
+const siteTitle = 'Danial\'s Portfolio';
 function Layout({
   children,
   home
@@ -2052,7 +2052,7 @@ function Home() {
       lineNumber: 9,
       columnNumber: 9
     }
-  }, _components_layout__WEBPACK_IMPORTED_MODULE_2__["siteTitle"])), __jsx("section", {
+  }, "Danial's Portfolio")), __jsx("section", {
     className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.headingMd,
     __self: this,
     __source: {
@@ -2088,23 +2088,23 @@ function Home() {
       lineNumber: 19,
       columnNumber: 9
     }
-  }, "Feel free to reach out if you would like to connect through", __jsx("a", {
+  }, "Feel free to reach out if you would like to connect through  ", __jsx("a", {
     href: "mailto:dbeg001@ucr.edu",
     target: "_blank",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 11
+      columnNumber: 20
     }
-  }, " email "), "or ", __jsx("a", {
+  }, "email"), " or ", __jsx("a", {
     href: "https://www.linkedin.com/in/danialbeg/",
     target: "_blank",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 14
+      lineNumber: 21,
+      columnNumber: 82
     }
   }, "LinkedIn"), "!")));
 }
