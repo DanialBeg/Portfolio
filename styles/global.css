@@ -25,3 +25,7 @@ img {
   max-width: 100%;
   display: block;
 }
+
+#header-text {
+  margin-top: 100pt;
+}

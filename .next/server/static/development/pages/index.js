@@ -2106,6 +2106,61 @@ function Home() {
       lineNumber: 21,
       columnNumber: 82
     }
+  }, "LinkedIn"), "!")), __jsx("section", {
+    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.headingMd,
+    id: "header-text",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 9
+    }
+  }, __jsx("strong", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 11
+    }
+  }, "Experience \uD83D\uDCBB")), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 9
+    }
+  }, "I'm a 3rd year Computer Science major at the University of California, Riverside."), "Currently, I'm looking for a summer 2021 Software Engineering Internship opportunity!", __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 9
+    }
+  }, "Feel free to reach out if you would like to connect through  ", __jsx("a", {
+    href: "mailto:dbeg001@ucr.edu",
+    target: "_blank",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 20
+    }
+  }, "email"), " or ", __jsx("a", {
+    href: "https://www.linkedin.com/in/danialbeg/",
+    target: "_blank",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 82
+    }
   }, "LinkedIn"), "!")));
 }
 
