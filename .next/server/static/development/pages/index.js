@@ -2016,131 +2016,170 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Home; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./components/layout.js");
-/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/utils.module.css */ "./styles/utils.module.css");
-/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/layout */ "./components/layout.js");
+/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/utils.module.css */ "./styles/utils.module.css");
+/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_layout_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/layout.module.css */ "./components/layout.module.css");
+/* harmony import */ var _components_layout_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_components_layout_module_css__WEBPACK_IMPORTED_MODULE_5__);
 var _jsxFileName = "/Users/danialbeg/Documents/Coding/Portfolio/pages/index.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+
+
+
+
+class Profile extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  render() {
+    return __jsx("div", {
+      id: "profile-photo",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12,
+        columnNumber: 7
+      }
+    });
+  }
+
+}
+
+class Header extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  render() {
+    return __jsx("div", {
+      id: "header-banner",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23,
+        columnNumber: 5
+      }
+    }, __jsx("header", {
+      className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.header,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 7
+      }
+    }, __jsx("img", {
+      src: "/images/profile.jpg",
+      className: `${_components_layout_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.headerHomeImage} ${_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.borderCircle}`,
+      id: 'profile-image',
+      alt: '',
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 13
+      }
+    }), __jsx("h1", {
+      className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.heading2Xl,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30,
+        columnNumber: 13
+      }
+    }, 'Danial Beg'), __jsx("a", {
+      href: '#header-text',
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31,
+        columnNumber: 13
+      }
+    }, __jsx("img", {
+      src: "images/arrow-down-1.png",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31,
+        columnNumber: 38
+      }
+    }))));
+  }
+
+}
 
 function Home() {
-  return __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    home: true,
+  return __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 40,
       columnNumber: 5
     }
-  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_0___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 41,
       columnNumber: 7
     }
   }, __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 42,
       columnNumber: 9
     }
-  }, "Danial's Portfolio")), __jsx("section", {
-    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.headingMd,
+  }, "Danial's Portfolio")), __jsx(Header, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 44,
       columnNumber: 7
     }
-  }, __jsx("p", {
+  }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 9
+      lineNumber: 45,
+      columnNumber: 5
     }
-  }, __jsx("strong", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 11
-    }
-  }, "Hello! \uD83D\uDC4B")), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 9
-    }
-  }, "I'm a 3rd year Computer Science major at the University of California, Riverside."), "Currently, I'm looking for a summer 2021 Software Engineering Internship opportunity!", __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 9
-    }
-  }, "Feel free to reach out if you would like to connect through  ", __jsx("a", {
-    href: "mailto:dbeg001@ucr.edu",
-    target: "_blank",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 20
-    }
-  }, "email"), " or ", __jsx("a", {
-    href: "https://www.linkedin.com/in/danialbeg/",
-    target: "_blank",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 82
-    }
-  }, "LinkedIn"), "!")), __jsx("section", {
-    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.headingMd,
+  }, __jsx("section", {
+    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.headingMd,
     id: "header-text",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 46,
       columnNumber: 7
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 47,
       columnNumber: 9
     }
-  }, __jsx("strong", {
+  }, __jsx("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 48,
       columnNumber: 11
     }
   }, "Experience \uD83D\uDCBB")), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 50,
       columnNumber: 9
     }
   }, "I'm a 3rd year Computer Science major at the University of California, Riverside."), "Currently, I'm looking for a summer 2021 Software Engineering Internship opportunity!", __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 54,
       columnNumber: 9
     }
   }, "Feel free to reach out if you would like to connect through  ", __jsx("a", {
@@ -2149,7 +2188,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 56,
       columnNumber: 20
     }
   }, "email"), " or ", __jsx("a", {
@@ -2158,10 +2197,10 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 56,
       columnNumber: 82
     }
-  }, "LinkedIn"), "!")));
+  }, "LinkedIn"), "!"))));
 }
 
 /***/ }),
@@ -2242,6 +2281,17 @@ module.exports = require("prop-types-exact");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-bootstrap":
+/*!**********************************!*\
+  !*** external "react-bootstrap" ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap");
 
 /***/ }),
 
