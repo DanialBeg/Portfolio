@@ -6,6 +6,8 @@ body {
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  scroll-behavior: smooth;
+  
 }
 
 * {
@@ -24,4 +26,20 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+
+#profile-image {
+  margin-top: 30vh !important;
+}
+
+#header-banner {
+  height: 100vh;
+  background: url('/images/london.jpg');
+  background-size: cover;
+  width: 100vw;
+  filter: brightness(1.05);
+}
+
+#header-text {
+  padding: 12vh 16px;
 }
