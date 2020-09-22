@@ -2089,7 +2089,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
         columnNumber: 13
       }
     }, 'Danial Beg'), __jsx("a", {
-      href: '#header-text',
+      href: '#about-me',
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -2102,7 +2102,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 31,
-        columnNumber: 38
+        columnNumber: 35
       }
     }))));
   }
@@ -2139,6 +2139,7 @@ function Home() {
       columnNumber: 7
     }
   }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    id: 'main-content',
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -2147,7 +2148,7 @@ function Home() {
     }
   }, __jsx("section", {
     className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.headingMd,
-    id: "header-text",
+    id: "about-me",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -2168,18 +2169,32 @@ function Home() {
       lineNumber: 48,
       columnNumber: 11
     }
-  }, "Experience \uD83D\uDCBB")), __jsx("p", {
+  }, "Hello! \uD83D\uDC4B")), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50,
       columnNumber: 9
     }
-  }, "I'm a 3rd year Computer Science major at the University of California, Riverside."), "Currently, I'm looking for a summer 2021 Software Engineering Internship opportunity!", __jsx("p", {
+  }, "I'm a 3rd year Computer Science major at the University of California, Riverside.", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 52,
+      columnNumber: 11
+    }
+  }), __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 11
+    }
+  }), "Currently, I'm looking for a summer 2021 Software Engineering Internship opportunity!"), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
       columnNumber: 9
     }
   }, "Feel free to reach out if you would like to connect through  ", __jsx("a", {
@@ -2188,7 +2203,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 58,
       columnNumber: 20
     }
   }, "email"), " or ", __jsx("a", {
@@ -2197,10 +2212,107 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 58,
       columnNumber: 82
     }
-  }, "LinkedIn"), "!"))));
+  }, "LinkedIn"), "!"), __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 9
+    }
+  }), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 9
+    }
+  }, "Here you can find out more about my work experience as well as the personal projects I've worked on!")), __jsx("section", {
+    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.headingMd,
+    id: "experience",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 9
+    }
+  }, __jsx("h2", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 11
+    }
+  }, "Experience \uD83D\uDCBB")), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 9
+    }
+  }, "I'm a 3rd year Computer Science major at the University of California, Riverside.", __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 11
+    }
+  }), __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 11
+    }
+  }), "Currently, I'm looking for a summer 2021 Software Engineering Internship opportunity!"), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77,
+      columnNumber: 9
+    }
+  }, "Feel free to reach out if you would like to connect through  ", __jsx("a", {
+    href: "mailto:dbeg001@ucr.edu",
+    target: "_blank",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79,
+      columnNumber: 20
+    }
+  }, "email"), " or ", __jsx("a", {
+    href: "https://www.linkedin.com/in/danialbeg/",
+    target: "_blank",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79,
+      columnNumber: 82
+    }
+  }, "LinkedIn"), "!"), __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82,
+      columnNumber: 9
+    }
+  }), __jsx("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83,
+      columnNumber: 9
+    }
+  }, "Here you can find out more about my work experience as well as the personal projects I've worked on!"))));
 }
 
 /***/ }),
