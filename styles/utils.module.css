@@ -20,9 +20,12 @@
     line-height: 1.4;
     margin: 1rem 0;
   }
+
   
   .headingMd {
     font-size: 1.2rem;
+    
+    margin: 60pt 0;
     line-height: 1.5;
   }
   

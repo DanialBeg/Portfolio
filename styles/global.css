@@ -38,8 +38,10 @@ img {
   background-size: cover;
   width: 100vw;
   filter: brightness(1.05);
+  margin-bottom: 12vh;
 }
 
-#header-text {
-  padding: 12vh 16px;
+
+p {
+  font-size: 14pt;
 }

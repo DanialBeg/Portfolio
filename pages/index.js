@@ -28,7 +28,7 @@ class Header extends React.Component {
               alt={''}
             />
             <h1 className={utilStyles.heading2Xl}>{'Danial Beg'}</h1>
-            <a href={'#header-text'}><img src={"images/arrow-down-1.png"}></img></a>
+            <a href={'#about-me'}><img src={"images/arrow-down-1.png"}></img></a>
       </header>
     </div>
     )
@@ -42,19 +42,46 @@ export default function Home() {
         <title>Danial's Portfolio</title>
       </Head>
       <Header/>
-    <Container>
-      <section className={utilStyles.headingMd} id='header-text'>
+    <Container id={'main-content'}>
+      <section className={utilStyles.headingMd} id='about-me'>
         <p>
-          <h2>Experience 💻</h2>
+          <h2>Hello! 👋</h2>
         </p>
         <p>
-          I'm a 3rd year Computer Science major at the University of California, Riverside.
-        </p>
+          I'm a 3rd year Computer Science major at the University of California, Riverside. 
+          <br/>
+          <br/>
           Currently, I'm looking for a summer 2021 Software Engineering Internship opportunity!
+        </p>
         <p>
           Feel free to reach out if you would like to connect 
           through  <a href="mailto:dbeg001@ucr.edu" target="_blank">email</a> or <a href="https://www.linkedin.com/in/danialbeg/" 
             target="_blank">LinkedIn</a>!
+        </p>
+        <br />
+        <p>
+          Here you can find out more about my work experience as well as the personal projects I've worked on!
+        </p>
+      </section>
+
+      <section className={utilStyles.headingMd} id='experience'>
+        <p>
+          <h2>Experience 💻</h2>
+        </p>
+        <p>
+          I'm a 3rd year Computer Science major at the University of California, Riverside. 
+          <br/>
+          <br/>
+          Currently, I'm looking for a summer 2021 Software Engineering Internship opportunity!
+        </p>
+        <p>
+          Feel free to reach out if you would like to connect 
+          through  <a href="mailto:dbeg001@ucr.edu" target="_blank">email</a> or <a href="https://www.linkedin.com/in/danialbeg/" 
+            target="_blank">LinkedIn</a>!
+        </p>
+        <br />
+        <p>
+          Here you can find out more about my work experience as well as the personal projects I've worked on!
         </p>
       </section>
       </Container>
