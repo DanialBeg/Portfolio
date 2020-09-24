@@ -45,3 +45,8 @@ img {
 p {
   font-size: 14pt;
 }
+
+
+.accordion > .card > .card-header {
+  background-color: #ffffff !important;
+}

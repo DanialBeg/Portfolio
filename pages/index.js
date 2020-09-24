@@ -4,6 +4,9 @@ import { Container } from 'react-bootstrap'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import styles from '../components/layout.module.css'
+import Accordion from 'react-bootstrap/Accordion'
+import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
 
 
 class Profile extends React.Component {
@@ -68,6 +71,31 @@ export default function Home() {
         <p>
           <h2>Experience 💻</h2>
         </p>
+      </section>
+
+      <Accordion defaultActiveKey="0" className ="accordion">
+        <Card>
+          <Accordion.Toggle as={Card.Header} eventKey="0">
+            NASA Jet Propulsion Laboratory, June 2020 - September 2020
+          </Accordion.Toggle>
+          <Accordion.Collapse eventKey="0">
+            <Card.Body>Hello! I'm the body</Card.Body>
+          </Accordion.Collapse>
+        </Card>
+        <Card>
+          <Accordion.Toggle as={Card.Header} eventKey="1">
+            Click me!
+          </Accordion.Toggle>
+          <Accordion.Collapse eventKey="1">
+            <Card.Body>Hello! I'm another body</Card.Body>
+          </Accordion.Collapse>
+        </Card>
+      </Accordion>
+
+      {/* <section className={utilStyles.headingMd} id='experience'>
+        <p>
+          <h2>Experience 💻</h2>
+        </p>
         <p>
           I'm a 3rd year Computer Science major at the University of California, Riverside. 
           <br/>
@@ -83,7 +111,7 @@ export default function Home() {
         <p>
           Here you can find out more about my work experience as well as the personal projects I've worked on!
         </p>
-      </section>
+      </section> */}
       </Container>
     </div>
   )

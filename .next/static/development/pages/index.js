@@ -4344,7 +4344,7 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".utils_heading2Xl__1I65m {\n    font-size: 2.5rem;\n    line-height: 1.2;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n    color: white\n  }\n  \n  .utils_headingXl__1XecN {\n    font-size: 2rem;\n    line-height: 1.3;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n  }\n  \n  .utils_headingLg__de7p0 {\n    font-size: 1.5rem;\n    line-height: 1.4;\n    margin: 1rem 0;\n  }\n\n  \n  .utils_headingMd__3de6G {\n    font-size: 1.2rem;\n    \n    margin: 60pt 0;\n    line-height: 1.5;\n  }\n  \n  .utils_borderCircle__13qdJ {\n    border-radius: 9999px;\n  }\n  \n  .utils_colorInherit__3Gudf {\n    color: inherit;\n  }\n  \n  .utils_padding1px__oCny8 {\n    padding-top: 1px;\n  }\n  \n  .utils_list__S7_pe {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n  }\n  \n  .utils_listItem__2eJpJ {\n    margin: 0 0 1.25rem;\n  }\n  \n  .utils_lightText__12Ckm {\n    color: #999;\n  }\n  ", "",{"version":3,"sources":["/Users/danialbeg/Documents/Coding/Portfolio/styles/utils.module.css"],"names":[],"mappings":"AAAA;IACI,iBAAiB;IACjB,gBAAgB;IAChB,gBAAgB;IAChB,wBAAwB;IACxB,cAAc;IACd;EACF;;EAEA;IACE,eAAe;IACf,gBAAgB;IAChB,gBAAgB;IAChB,wBAAwB;IACxB,cAAc;EAChB;;EAEA;IACE,iBAAiB;IACjB,gBAAgB;IAChB,cAAc;EAChB;;;EAGA;IACE,iBAAiB;;IAEjB,cAAc;IACd,gBAAgB;EAClB;;EAEA;IACE,qBAAqB;EACvB;;EAEA;IACE,cAAc;EAChB;;EAEA;IACE,gBAAgB;EAClB;;EAEA;IACE,gBAAgB;IAChB,UAAU;IACV,SAAS;EACX;;EAEA;IACE,mBAAmB;EACrB;;EAEA;IACE,WAAW;EACb","file":"utils.module.css","sourcesContent":[".heading2Xl {\n    font-size: 2.5rem;\n    line-height: 1.2;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n    color: white\n  }\n  \n  .headingXl {\n    font-size: 2rem;\n    line-height: 1.3;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n  }\n  \n  .headingLg {\n    font-size: 1.5rem;\n    line-height: 1.4;\n    margin: 1rem 0;\n  }\n\n  \n  .headingMd {\n    font-size: 1.2rem;\n    \n    margin: 60pt 0;\n    line-height: 1.5;\n  }\n  \n  .borderCircle {\n    border-radius: 9999px;\n  }\n  \n  .colorInherit {\n    color: inherit;\n  }\n  \n  .padding1px {\n    padding-top: 1px;\n  }\n  \n  .list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n  }\n  \n  .listItem {\n    margin: 0 0 1.25rem;\n  }\n  \n  .lightText {\n    color: #999;\n  }\n  "]}]);
+exports.push([module.i, ".utils_heading2Xl__1I65m {\n    font-size: 2.5rem;\n    line-height: 1.2;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n    color: white\n  }\n  \n  .utils_headingXl__1XecN {\n    font-size: 2rem;\n    line-height: 1.3;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n  }\n  \n  .utils_headingLg__de7p0 {\n    font-size: 1.5rem;\n    line-height: 1.4;\n    margin: 1rem 0;\n  }\n\n  \n  .utils_headingMd__3de6G {\n    font-size: 1.2rem;\n    \n    margin: 60pt 0;\n    line-height: 1.5;\n  }\n  \n  .utils_borderCircle__13qdJ {\n    border-radius: 9999px;\n  }\n  \n  .utils_colorInherit__3Gudf {\n    color: inherit;\n  }\n  \n  .utils_padding1px__oCny8 {\n    padding-top: 1px;\n  }\n  \n  .utils_list__S7_pe {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n  }\n  \n  .utils_listItem__2eJpJ {\n    margin: 0 0 1.25rem;\n  }\n  \n  .utils_lightText__12Ckm {\n    color: #999;\n  }", "",{"version":3,"sources":["/Users/danialbeg/Documents/Coding/Portfolio/styles/utils.module.css"],"names":[],"mappings":"AAAA;IACI,iBAAiB;IACjB,gBAAgB;IAChB,gBAAgB;IAChB,wBAAwB;IACxB,cAAc;IACd;EACF;;EAEA;IACE,eAAe;IACf,gBAAgB;IAChB,gBAAgB;IAChB,wBAAwB;IACxB,cAAc;EAChB;;EAEA;IACE,iBAAiB;IACjB,gBAAgB;IAChB,cAAc;EAChB;;;EAGA;IACE,iBAAiB;;IAEjB,cAAc;IACd,gBAAgB;EAClB;;EAEA;IACE,qBAAqB;EACvB;;EAEA;IACE,cAAc;EAChB;;EAEA;IACE,gBAAgB;EAClB;;EAEA;IACE,gBAAgB;IAChB,UAAU;IACV,SAAS;EACX;;EAEA;IACE,mBAAmB;EACrB;;EAEA;IACE,WAAW;EACb","file":"utils.module.css","sourcesContent":[".heading2Xl {\n    font-size: 2.5rem;\n    line-height: 1.2;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n    color: white\n  }\n  \n  .headingXl {\n    font-size: 2rem;\n    line-height: 1.3;\n    font-weight: 800;\n    letter-spacing: -0.05rem;\n    margin: 1rem 0;\n  }\n  \n  .headingLg {\n    font-size: 1.5rem;\n    line-height: 1.4;\n    margin: 1rem 0;\n  }\n\n  \n  .headingMd {\n    font-size: 1.2rem;\n    \n    margin: 60pt 0;\n    line-height: 1.5;\n  }\n  \n  .borderCircle {\n    border-radius: 9999px;\n  }\n  \n  .colorInherit {\n    color: inherit;\n  }\n  \n  .padding1px {\n    padding-top: 1px;\n  }\n  \n  .list {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n  }\n  \n  .listItem {\n    margin: 0 0 1.25rem;\n  }\n  \n  .lightText {\n    color: #999;\n  }"]}]);
 // Exports
 exports.locals = {
 	"heading2Xl": "utils_heading2Xl__1I65m",
@@ -20980,6 +20980,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var _components_layout_module_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/layout.module.css */ "./components/layout.module.css");
 /* harmony import */ var _components_layout_module_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_components_layout_module_css__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-bootstrap/Accordion */ "./node_modules/react-bootstrap/esm/Accordion.js");
+/* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-bootstrap/Card */ "./node_modules/react-bootstrap/esm/Card.js");
+/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-bootstrap/Button */ "./node_modules/react-bootstrap/esm/Button.js");
 
 
 
@@ -20991,6 +20994,9 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+
+
 
 
 
@@ -21018,7 +21024,7 @@ var Profile = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12,
+          lineNumber: 15,
           columnNumber: 7
         }
       });
@@ -21047,7 +21053,7 @@ var Header = /*#__PURE__*/function (_React$Component2) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 26,
           columnNumber: 5
         }
       }, __jsx("header", {
@@ -21055,7 +21061,7 @@ var Header = /*#__PURE__*/function (_React$Component2) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24,
+          lineNumber: 27,
           columnNumber: 7
         }
       }, __jsx("img", {
@@ -21066,7 +21072,7 @@ var Header = /*#__PURE__*/function (_React$Component2) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25,
+          lineNumber: 28,
           columnNumber: 13
         }
       }), __jsx("h1", {
@@ -21074,7 +21080,7 @@ var Header = /*#__PURE__*/function (_React$Component2) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 33,
           columnNumber: 13
         }
       }, 'Danial Beg'), __jsx("a", {
@@ -21082,7 +21088,7 @@ var Header = /*#__PURE__*/function (_React$Component2) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 34,
           columnNumber: 13
         }
       }, __jsx("img", {
@@ -21090,7 +21096,7 @@ var Header = /*#__PURE__*/function (_React$Component2) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 34,
           columnNumber: 35
         }
       }))));
@@ -21105,28 +21111,28 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 43,
       columnNumber: 5
     }
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_5___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 44,
       columnNumber: 7
     }
   }, __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 45,
       columnNumber: 9
     }
   }, "Danial's Portfolio")), __jsx(Header, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 47,
       columnNumber: 7
     }
   }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_7__["Container"], {
@@ -21134,7 +21140,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 48,
       columnNumber: 5
     }
   }, __jsx("section", {
@@ -21143,49 +21149,49 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 49,
       columnNumber: 7
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 50,
       columnNumber: 9
     }
   }, __jsx("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 51,
       columnNumber: 11
     }
   }, "Hello! \uD83D\uDC4B")), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 53,
       columnNumber: 9
     }
   }, "I'm a 3rd year Computer Science major at the University of California, Riverside.", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 55,
       columnNumber: 11
     }
   }), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 56,
       columnNumber: 11
     }
   }), "Currently, I'm looking for a summer 2021 Software Engineering Internship opportunity!"), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 59,
       columnNumber: 9
     }
   }, "Feel free to reach out if you would like to connect through  ", __jsx("a", {
@@ -21194,7 +21200,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 61,
       columnNumber: 20
     }
   }, "email"), " or ", __jsx("a", {
@@ -21203,21 +21209,21 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 61,
       columnNumber: 82
     }
   }, "LinkedIn"), "!"), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 64,
       columnNumber: 9
     }
   }), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 65,
       columnNumber: 9
     }
   }, "Here you can find out more about my work experience as well as the personal projects I've worked on!")), __jsx("section", {
@@ -21226,84 +21232,95 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 70,
       columnNumber: 7
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 71,
       columnNumber: 9
     }
   }, __jsx("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 72,
       columnNumber: 11
     }
-  }, "Experience \uD83D\uDCBB")), __jsx("p", {
+  }, "Experience \uD83D\uDCBB"))), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    defaultActiveKey: "0",
+    className: "accordion",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
-      columnNumber: 9
+      lineNumber: 76,
+      columnNumber: 7
     }
-  }, "I'm a 3rd year Computer Science major at the University of California, Riverside.", __jsx("br", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73,
-      columnNumber: 11
-    }
-  }), __jsx("br", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74,
-      columnNumber: 11
-    }
-  }), "Currently, I'm looking for a summer 2021 Software Engineering Internship opportunity!"), __jsx("p", {
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 77,
       columnNumber: 9
     }
-  }, "Feel free to reach out if you would like to connect through  ", __jsx("a", {
-    href: "mailto:dbeg001@ucr.edu",
-    target: "_blank",
+  }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_11__["default"].Toggle, {
+    as: react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Header,
+    eventKey: "0",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79,
-      columnNumber: 20
+      lineNumber: 78,
+      columnNumber: 11
     }
-  }, "email"), " or ", __jsx("a", {
-    href: "https://www.linkedin.com/in/danialbeg/",
-    target: "_blank",
+  }, "NASA Jet Propulsion Laboratory, June 2020 - September 2020"), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_11__["default"].Collapse, {
+    eventKey: "0",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79,
-      columnNumber: 82
+      lineNumber: 81,
+      columnNumber: 11
     }
-  }, "LinkedIn"), "!"), __jsx("br", {
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Body, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 82,
-      columnNumber: 9
+      columnNumber: 13
     }
-  }), __jsx("p", {
+  }, "Hello! I'm the body"))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 85,
       columnNumber: 9
     }
-  }, "Here you can find out more about my work experience as well as the personal projects I've worked on!"))));
+  }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_11__["default"].Toggle, {
+    as: react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Header,
+    eventKey: "1",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86,
+      columnNumber: 11
+    }
+  }, "Click me!"), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_11__["default"].Collapse, {
+    eventKey: "1",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89,
+      columnNumber: 11
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Body, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90,
+      columnNumber: 13
+    }
+  }, "Hello! I'm another body"))))));
 }
 
 /***/ }),
