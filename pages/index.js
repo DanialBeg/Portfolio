@@ -70,7 +70,7 @@ export default function Home() {
       <section className={utilStyles.headingMd} id='experience'>
           <p><h2>Experience 💻</h2></p>
 
-          <Accordion defaultActiveKey="0">
+          <Accordion defaultActiveKey="">
             <Card>
               <Accordion.Toggle as={Card.Header} eventKey="0">
                 <span className ="exp-header">🚀 NASA Jet Propulsion Laboratory</span>, June 2020 - September 2020

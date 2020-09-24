@@ -21250,7 +21250,7 @@ function Home() {
       columnNumber: 14
     }
   }, "Experience \uD83D\uDCBB")), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_11__["default"], {
-    defaultActiveKey: "0",
+    defaultActiveKey: "",
     __self: this,
     __source: {
       fileName: _jsxFileName,
