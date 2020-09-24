@@ -6,6 +6,8 @@ import utilStyles from '../styles/utils.module.css'
 import styles from '../components/layout.module.css'
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
+import CardGroup from 'react-bootstrap/CardGroup'
+import CardDeck from 'react-bootstrap/CardDeck'
 import Button from 'react-bootstrap/Button'
 
 
@@ -139,23 +141,31 @@ export default function Home() {
 
       <section className={utilStyles.headingMd} id='experience'>
         <p>
-          <h2>Leadership 🔈</h2>
+          <h2>Projects 🚧</h2>
         </p>
-        <p>
-          I'm a 3rd year Computer Science major at the University of California, Riverside. 
-          <br/>
-          <br/>
-          Currently, I'm looking for a summer 2021 Software Engineering Internship opportunity!
-        </p>
-        <p>
-          Feel free to reach out if you would like to connect 
-          through  <a href="mailto:dbeg001@ucr.edu" target="_blank">email</a> or <a href="https://www.linkedin.com/in/danialbeg/" 
-            target="_blank">LinkedIn</a>!
-        </p>
-        <br />
-        <p>
-          Here you can find out more about my work experience as well as the personal projects I've worked on!
-        </p>
+        <CardGroup>
+        <Card>
+            <Card.Body>
+              <Card.Title>Car Bazaar</Card.Title>
+              <Card.Text>
+                Website that would take in user input to create a car sale listing as well as adding a social media aspect
+                where users could share car-related media. Built with Flask, HTML, CSS, and Google Firebase. 
+                <br />
+                <br />
+                Rose Hack 2020 Best .tech Domain Winner
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Body>
+              <Card.Title>Dealectable</Card.Title>
+              <Card.Text>
+                Android Application that would translate a printed menu into a text file on the application
+                using OpenCV and Google Firebase. Submitted for Cutie Hack 2018.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </CardGroup>
       </section>
       </Container>
     </div>
