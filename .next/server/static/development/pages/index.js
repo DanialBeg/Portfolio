@@ -2252,30 +2252,29 @@ function Home() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 71,
-      columnNumber: 9
+      columnNumber: 11
     }
   }, __jsx("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 11
+      lineNumber: 71,
+      columnNumber: 14
     }
-  }, "Experience \uD83D\uDCBB"))), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_6___default.a, {
+  }, "Experience \uD83D\uDCBB")), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_6___default.a, {
     defaultActiveKey: "0",
-    className: "accordion",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
-      columnNumber: 7
+      lineNumber: 73,
+      columnNumber: 11
     }
   }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
-      columnNumber: 9
+      lineNumber: 74,
+      columnNumber: 13
     }
   }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_6___default.a.Toggle, {
     as: react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Header,
@@ -2283,30 +2282,94 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
-      columnNumber: 11
+      lineNumber: 75,
+      columnNumber: 15
     }
-  }, "NASA Jet Propulsion Laboratory, June 2020 - September 2020"), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_6___default.a.Collapse, {
+  }, __jsx("span", {
+    className: "exp-header",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76,
+      columnNumber: 17
+    }
+  }, "\uD83D\uDE80 NASA Jet Propulsion Laboratory"), ", June 2020 - September 2020"), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_6___default.a.Collapse, {
     eventKey: "0",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81,
-      columnNumber: 11
+      lineNumber: 78,
+      columnNumber: 15
     }
   }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Body, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82,
-      columnNumber: 13
+      lineNumber: 79,
+      columnNumber: 17
     }
-  }, "Hello! I'm the body"))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a, {
+  }, __jsx("ul", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80,
+      columnNumber: 19
+    }
+  }, __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 21
+    }
+  }, " Worked on the Europa Clipper mission where the main task was to translate over 50 English based flight rules into formal first-order logic to assist future software development teams in translating flight rules into modeling code. "), __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83,
+      columnNumber: 21
+    }
+  }), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84,
+      columnNumber: 21
+    }
+  }, " Created various different states as well as utilized interval algebra to create time-based logic statements, necessary for time-critical flight rules. "), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 85,
-      columnNumber: 9
+      columnNumber: 21
+    }
+  }), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86,
+      columnNumber: 21
+    }
+  }, " Utilized Modelica to model the impacts of flight rule violations on various different spacecraft components in order to gain an understanding of the \u201Dworst possible outcome\u201D of a violated flight rule."), __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88,
+      columnNumber: 23
+    }
+  }), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89,
+      columnNumber: 21
+    }
+  }, "Assisted a fellow design intern team in drafting up a front-end tool that utilized HTML, CSS, and Javascript, in order to lead to a more intuitive display of various flight rules for engineers not familiar with the current way flight rules, were expressed."))))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95,
+      columnNumber: 13
     }
   }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_6___default.a.Toggle, {
     as: react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Header,
@@ -2314,25 +2377,25 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
-      columnNumber: 11
+      lineNumber: 96,
+      columnNumber: 15
     }
   }, "Click me!"), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_6___default.a.Collapse, {
     eventKey: "1",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
-      columnNumber: 11
+      lineNumber: 99,
+      columnNumber: 15
     }
   }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Body, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
-      columnNumber: 13
+      lineNumber: 100,
+      columnNumber: 17
     }
-  }, "Hello! I'm another body"))))));
+  }, "Hello! I'm another body")))))));
 }
 
 /***/ }),
