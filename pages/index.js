@@ -94,18 +94,52 @@ export default function Home() {
             </Card>
             <Card>
               <Accordion.Toggle as={Card.Header} eventKey="1">
-                Click me!
+                <span className ="exp-header">🔬 General Atomics</span>, June 2019 - September 2019
               </Accordion.Toggle>
               <Accordion.Collapse eventKey="1">
-                <Card.Body>Hello! I'm another body</Card.Body>
+                <Card.Body>
+                  <ul>
+                    <li> Deployed on-site at Lawrence Livermore National Laboratory working for the Nation Ignition Facility group (NIF). </li> 
+                    <br />
+                    <li> Utilized Python to develop automated image analysis software for X-Ray spectroscopy from experiments conducted at NIF. </li> 
+                    <br />
+                    <li> Increased efficiency and reduced processing time by over 80% by only downloading data that was pertinent to the analysis, 
+                      thus allowing data collection and analysis to be done within a minute.</li>
+                    <br />
+                    <li> Reduced analysis times while increasing accuracy to about 90% for image analysis done on a wide range of experimental 
+                      data spanning over 5 years of experiments.</li>
+                    <br />
+                    <li> Created a poster for the 2019 Lawrence Livermore National Lab Poster Symposium that was selected for the Top 5 of all the 
+                      projects from the National Ignition Facility (NIF)</li>
+                  </ul>
+                </Card.Body>
+              </Accordion.Collapse>
+            </Card>
+            <Card>
+              <Accordion.Toggle as={Card.Header} eventKey="2">
+                <span className ="exp-header">☀️ University of California, San Diego</span> Center for Energy Research, July 2017 - August 2017
+              </Accordion.Toggle>
+              <Accordion.Collapse eventKey="2">
+                <Card.Body>
+                  <ul>
+                    <li> Designed, tested, and implemented code that uses ComputerVision in Python to help identify the 
+                      position of the sun and other objects in the sky with 75% accuracy. </li> 
+                    <br />
+                    <li> The program, using a camera's live feed to get input, detected the 
+                      brightest spots in the given scenario to help identify the location of the sun. </li> 
+                    <br />
+                    <li> This was used to help improve weather predictions for solar power plants in order to change power 
+                      output in anticipation of weather events.</li>
+                  </ul>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
           </Accordion>
       </section>
 
-      {/* <section className={utilStyles.headingMd} id='experience'>
+      <section className={utilStyles.headingMd} id='experience'>
         <p>
-          <h2>Experience 💻</h2>
+          <h2>Leadership 🔈</h2>
         </p>
         <p>
           I'm a 3rd year Computer Science major at the University of California, Riverside. 
@@ -122,7 +156,7 @@ export default function Home() {
         <p>
           Here you can find out more about my work experience as well as the personal projects I've worked on!
         </p>
-      </section> */}
+      </section>
       </Container>
     </div>
   )
