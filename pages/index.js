@@ -144,6 +144,35 @@ export default function Home() {
           <h2>Projects 🚧</h2>
         </p>
         <CardGroup>
+          <Card>
+            <Card.Body>
+              <Card.Title>Personal Website</Card.Title>
+              <Card.Text>
+                Working on adding new features to this website! Built using a React framework, NextJS and hosted
+                through Vercel!
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Body>
+              <Card.Title>F1 Predictions</Card.Title>
+              <Card.Text>
+                Taking user input of F1 qualifying positions and comparing it to data from previous races in order
+                to create a model that will predict the results of the race. All built out into a nice front-end website!
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Body>
+              <Card.Title>ACM@UCR Website</Card.Title>
+              <Card.Text>
+                Responsible for maintenance, adding new additions, and new implementing new features for ACM@UCR's website built with
+                Node.JS, HTML, and SCSS.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </CardGroup>
+      <CardGroup>
         <Card>
             <Card.Body>
               <Card.Title>Car Bazaar</Card.Title>
@@ -152,7 +181,17 @@ export default function Home() {
                 where users could share car-related media. Built with Flask, HTML, CSS, and Google Firebase. 
                 <br />
                 <br />
-                Rose Hack 2020 Best .tech Domain Winner
+                Rose Hack 2020 Best Domain.com Domain Winner
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Body>
+              <Card.Title>R'Shell</Card.Title>
+              <Card.Text>
+                UNIX-sylle shell that we had to create using C++ for CS100 (Object Oriented Design). This project 
+                helped us learn how to build something from the ground up, using design patterns that helped make the project
+                extensible.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -161,7 +200,10 @@ export default function Home() {
               <Card.Title>Dealectable</Card.Title>
               <Card.Text>
                 Android Application that would translate a printed menu into a text file on the application
-                using OpenCV and Google Firebase. Submitted for Cutie Hack 2018.
+                using OpenCV and Google Firebase.
+                <br />
+                <br />
+                Submitted for Cutie Hack 2018
               </Card.Text>
             </Card.Body>
           </Card>

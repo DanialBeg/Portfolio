@@ -21581,7 +21581,7 @@ function Home() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 147,
-      columnNumber: 9
+      columnNumber: 11
     }
   }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Body, {
     __self: this,
@@ -21597,56 +21597,189 @@ function Home() {
       lineNumber: 149,
       columnNumber: 15
     }
-  }, "Car Bazaar"), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Text, {
+  }, "Personal Website"), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Text, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 150,
       columnNumber: 15
     }
-  }, "Website that would take in user input to create a car sale listing as well as adding a social media aspect where users could share car-related media. Built with Flask, HTML, CSS, and Google Firebase.", __jsx("br", {
+  }, "Working on adding new features to this website! Built using a React framework, NextJS and hosted through Vercel!"))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153,
-      columnNumber: 17
-    }
-  }), __jsx("br", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 154,
-      columnNumber: 17
-    }
-  }), "Rose Hack 2020 Best .tech Domain Winner"))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 159,
+      lineNumber: 156,
       columnNumber: 11
     }
   }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Body, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160,
+      lineNumber: 157,
       columnNumber: 13
     }
   }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Title, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161,
+      lineNumber: 158,
+      columnNumber: 15
+    }
+  }, "F1 Predictions"), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Text, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 159,
+      columnNumber: 15
+    }
+  }, "Taking user input of F1 qualifying positions and comparing it to data from previous races in order to create a model that will predict the results of the race. All built out into a nice front-end website!"))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 165,
+      columnNumber: 11
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Body, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 166,
+      columnNumber: 13
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Title, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 167,
+      columnNumber: 15
+    }
+  }, "ACM@UCR Website"), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Text, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 168,
+      columnNumber: 15
+    }
+  }, "Responsible for maintenance, adding new additions, and new implementing new features for ACM@UCR's website built with Node.JS, HTML, and SCSS.")))), __jsx(react_bootstrap_CardGroup__WEBPACK_IMPORTED_MODULE_13__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 175,
+      columnNumber: 7
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 176,
+      columnNumber: 9
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Body, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 177,
+      columnNumber: 13
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Title, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 178,
+      columnNumber: 15
+    }
+  }, "Car Bazaar"), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Text, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 179,
+      columnNumber: 15
+    }
+  }, "Website that would take in user input to create a car sale listing as well as adding a social media aspect where users could share car-related media. Built with Flask, HTML, CSS, and Google Firebase.", __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 182,
+      columnNumber: 17
+    }
+  }), __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 183,
+      columnNumber: 17
+    }
+  }), "Rose Hack 2020 Best Domain.com Domain Winner"))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 188,
+      columnNumber: 11
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Body, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 189,
+      columnNumber: 13
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Title, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 190,
+      columnNumber: 15
+    }
+  }, "R'Shell"), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Text, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 191,
+      columnNumber: 15
+    }
+  }, "UNIX-sylle shell that we had to create using C++ for CS100 (Object Oriented Design). This project helped us learn how to build something from the ground up, using design patterns that helped make the project extensible."))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 198,
+      columnNumber: 11
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Body, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 199,
+      columnNumber: 13
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Title, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 200,
       columnNumber: 15
     }
   }, "Dealectable"), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_12__["default"].Text, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162,
+      lineNumber: 201,
       columnNumber: 15
     }
-  }, "Android Application that would translate a printed menu into a text file on the application using OpenCV and Google Firebase. Submitted for Cutie Hack 2018.")))))));
+  }, "Android Application that would translate a printed menu into a text file on the application using OpenCV and Google Firebase.", __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 204,
+      columnNumber: 17
+    }
+  }), __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 205,
+      columnNumber: 17
+    }
+  }), "Submitted for Cutie Hack 2018")))))));
 }
 
 /***/ }),
