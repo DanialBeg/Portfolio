@@ -61,6 +61,12 @@ p {
   border-radius: 10px;
 }
 
+.card-body {
+  box-shadow:  20px 20px 60px #c5c9c4, 
+             -20px -20px 60px #ffffff;
+  border-radius: 10px;
+}
+
 .accordion > .card > .card-header {
   background-color: #ffffff !important;
   font-size: 14pt;
