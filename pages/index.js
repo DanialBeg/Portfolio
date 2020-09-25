@@ -6,6 +6,8 @@ import utilStyles from '../styles/utils.module.css'
 import styles from '../components/layout.module.css'
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
+import CardGroup from 'react-bootstrap/CardGroup'
+import CardDeck from 'react-bootstrap/CardDeck'
 import Button from 'react-bootstrap/Button'
 
 
@@ -70,7 +72,7 @@ export default function Home() {
       <section className={utilStyles.headingMd} id='experience'>
           <p><h2>Experience 💻</h2></p>
 
-          <Accordion defaultActiveKey="0">
+          <Accordion defaultActiveKey="">
             <Card>
               <Accordion.Toggle as={Card.Header} eventKey="0">
                 <span className ="exp-header">🚀 NASA Jet Propulsion Laboratory</span>, June 2020 - September 2020
@@ -94,35 +96,119 @@ export default function Home() {
             </Card>
             <Card>
               <Accordion.Toggle as={Card.Header} eventKey="1">
-                Click me!
+                <span className ="exp-header">🔬 General Atomics</span>, June 2019 - September 2019
               </Accordion.Toggle>
               <Accordion.Collapse eventKey="1">
-                <Card.Body>Hello! I'm another body</Card.Body>
+                <Card.Body>
+                  <ul>
+                    <li> Deployed on-site at Lawrence Livermore National Laboratory working for the Nation Ignition Facility group (NIF). </li> 
+                    <br />
+                    <li> Utilized Python to develop automated image analysis software for X-Ray spectroscopy from experiments conducted at NIF. </li> 
+                    <br />
+                    <li> Increased efficiency and reduced processing time by over 80% by only downloading data that was pertinent to the analysis, 
+                      thus allowing data collection and analysis to be done within a minute.</li>
+                    <br />
+                    <li> Reduced analysis times while increasing accuracy to about 90% for image analysis done on a wide range of experimental 
+                      data spanning over 5 years of experiments.</li>
+                    <br />
+                    <li> Created a poster for the 2019 Lawrence Livermore National Lab Poster Symposium that was selected for the Top 5 of all the 
+                      projects from the National Ignition Facility (NIF)</li>
+                  </ul>
+                </Card.Body>
+              </Accordion.Collapse>
+            </Card>
+            <Card>
+              <Accordion.Toggle as={Card.Header} eventKey="2">
+                <span className ="exp-header">☀️ University of California, San Diego</span> Center for Energy Research, July 2017 - August 2017
+              </Accordion.Toggle>
+              <Accordion.Collapse eventKey="2">
+                <Card.Body>
+                  <ul>
+                    <li> Designed, tested, and implemented code that uses ComputerVision in Python to help identify the 
+                      position of the sun and other objects in the sky with 75% accuracy. </li> 
+                    <br />
+                    <li> The program, using a camera's live feed to get input, detected the 
+                      brightest spots in the given scenario to help identify the location of the sun. </li> 
+                    <br />
+                    <li> This was used to help improve weather predictions for solar power plants in order to change power 
+                      output in anticipation of weather events.</li>
+                  </ul>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
           </Accordion>
       </section>
 
-      {/* <section className={utilStyles.headingMd} id='experience'>
+      <section className={utilStyles.headingMd} id='experience'>
         <p>
-          <h2>Experience 💻</h2>
+          <h2>Projects 🚧</h2>
         </p>
-        <p>
-          I'm a 3rd year Computer Science major at the University of California, Riverside. 
-          <br/>
-          <br/>
-          Currently, I'm looking for a summer 2021 Software Engineering Internship opportunity!
-        </p>
-        <p>
-          Feel free to reach out if you would like to connect 
-          through  <a href="mailto:dbeg001@ucr.edu" target="_blank">email</a> or <a href="https://www.linkedin.com/in/danialbeg/" 
-            target="_blank">LinkedIn</a>!
-        </p>
-        <br />
-        <p>
-          Here you can find out more about my work experience as well as the personal projects I've worked on!
-        </p>
-      </section> */}
+        <CardDeck>
+          <Card>
+            <Card.Body>
+              <Card.Title>Personal Website</Card.Title>
+              <Card.Text>
+                Working on adding new features to this website! Built using a React framework, NextJS and hosted
+                through Vercel!
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Body>
+              <Card.Title>F1 Predictions</Card.Title>
+              <Card.Text>
+                Taking user input of F1 qualifying positions and comparing it to data from previous races in order
+                to create a model that will predict the results of the race. All built out into a nice front-end website!
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Body>
+              <Card.Title>ACM@UCR Website</Card.Title>
+              <Card.Text>
+                Responsible for maintenance, adding new additions, and new implementing new features for ACM@UCR's website built with
+                Node.JS, HTML, and SCSS.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </CardDeck>
+        <CardDeck>
+          <Card>
+              <Card.Body>
+                <Card.Title>Car Bazaar</Card.Title>
+                <Card.Text>
+                  Website that would take in user input to create a car sale listing as well as adding a social media aspect
+                  where users could share car-related media. Built with Flask, HTML, CSS, and Google Firebase. 
+                  <br />
+                  <br />
+                  Rose Hack 2020 Best Domain.com Domain Winner
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Body>
+                <Card.Title>R'Shell</Card.Title>
+                <Card.Text>
+                  UNIX-sylle shell that we had to create using C++ for CS100 (Object Oriented Design). This project 
+                  helped us learn how to build something from the ground up, using design patterns that helped make the project
+                  extensible.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Body>
+                <Card.Title>Dealectable</Card.Title>
+                <Card.Text>
+                  Android Application that would translate a printed menu into a text file on the application
+                  using OpenCV and Google Firebase.
+                  <br />
+                  <br />
+                  Submitted for Cutie Hack 2018
+                </Card.Text>
+              </Card.Body>
+            </Card>
+        </CardDeck>
+      </section>
       </Container>
     </div>
   )
