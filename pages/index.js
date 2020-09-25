@@ -9,6 +9,7 @@ import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
 import CardDeck from 'react-bootstrap/CardDeck'
 import Button from 'react-bootstrap/Button'
+import {Nav, Navbar, NavDropdown, Form, FormControl} from 'react-bootstrap'
 
 
 class Profile extends React.Component {
@@ -21,10 +22,32 @@ class Profile extends React.Component {
   }
 }
 
+class HomeNav extends React.Component {
+  render(){
+    return (
+      <div>
+        <Navbar bg="light" expand="lg">
+          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href="#home">About Me</Nav.Link>
+              <Nav.Link href="#link">Experience</Nav.Link>
+              <Nav.Link href="#link">Projects</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+      </div>
+    )
+    }
+}
+
 
 class Header extends React.Component {
   render() {
     return (
+      <div>
+      <HomeNav/>
     <div id="header-banner">
       <header className={styles.header}>
             <img
@@ -36,6 +59,7 @@ class Header extends React.Component {
             <a href={'#about-me'}><img src={"images/arrow-down-1.png"}></img></a>
       </header>
     </div>
+    </div>
     )
   }
 }
@@ -46,6 +70,7 @@ export default function Home() {
       <Head>
         <title>Danial's Portfolio</title>
       </Head>
+      
       <Header/>
     <Container id={'main-content'}>
       <section className={utilStyles.headingMd} id='about-me'>
@@ -146,7 +171,11 @@ export default function Home() {
         <CardDeck>
           <Card>
             <Card.Body>
-              <Card.Title>Personal Website</Card.Title>
+              <Card.Title>
+                Personal Website
+                <br />
+                <span className="desc">September 2020 - Current</span>
+              </Card.Title>
               <Card.Text>
                 Working on adding new features to this website! Built using a React framework, NextJS and hosted
                 through Vercel!
@@ -155,7 +184,11 @@ export default function Home() {
           </Card>
           <Card>
             <Card.Body>
-              <Card.Title>F1 Predictions</Card.Title>
+              <Card.Title>
+                F1 Predictions
+                <br />
+                <span className="desc">August 2020 - Current</span>
+              </Card.Title>
               <Card.Text>
                 Taking user input of F1 qualifying positions and comparing it to data from previous races in order
                 to create a model that will predict the results of the race. All built out into a nice front-end website!
@@ -164,7 +197,11 @@ export default function Home() {
           </Card>
           <Card>
             <Card.Body>
-              <Card.Title>ACM@UCR Website</Card.Title>
+              <Card.Title>
+                ACM@UCR Website
+                <br />
+                <span className="desc">April 2020 - Current</span>
+                </Card.Title>
               <Card.Text>
                 Responsible for maintenance, adding new additions, and new implementing new features for ACM@UCR's website built with
                 Node.JS, HTML, and SCSS.
@@ -175,19 +212,27 @@ export default function Home() {
         <CardDeck>
           <Card>
               <Card.Body>
-                <Card.Title>Car Bazaar</Card.Title>
+                <Card.Title>
+                  Car Bazaar
+                  <br />
+                  <span className="desc">Rose Hack 2020 Best Domain.com Domain Winner</span>
+                </Card.Title>
                 <Card.Text>
                   Website that would take in user input to create a car sale listing as well as adding a social media aspect
                   where users could share car-related media. Built with Flask, HTML, CSS, and Google Firebase. 
                   <br />
                   <br />
-                  Rose Hack 2020 Best Domain.com Domain Winner
+                  
                 </Card.Text>
               </Card.Body>
             </Card>
             <Card>
               <Card.Body>
-                <Card.Title>R'Shell</Card.Title>
+                <Card.Title>
+                  R'Shell
+                  <br />
+                  <span className="desc">September 2019 - December 2019</span>
+                  </Card.Title>
                 <Card.Text>
                   UNIX-sylle shell that we had to create using C++ for CS100 (Object Oriented Design). This project 
                   helped us learn how to build something from the ground up, using design patterns that helped make the project
@@ -197,13 +242,16 @@ export default function Home() {
             </Card>
             <Card>
               <Card.Body>
-                <Card.Title>Dealectable</Card.Title>
+                <Card.Title>
+                  Dealectable
+                  <br />
+                  <span className="desc">Submitted for Cutie Hack 2018</span>
+                </Card.Title>
                 <Card.Text>
                   Android Application that would translate a printed menu into a text file on the application
                   using OpenCV and Google Firebase.
                   <br />
                   <br />
-                  Submitted for Cutie Hack 2018
                 </Card.Text>
               </Card.Body>
             </Card>

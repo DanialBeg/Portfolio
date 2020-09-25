@@ -77,3 +77,9 @@ p {
   font-weight: 700;
 }
 
+.desc {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 10pt;
+}
+
