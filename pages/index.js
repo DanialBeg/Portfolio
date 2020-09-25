@@ -143,7 +143,7 @@ export default function Home() {
         <p>
           <h2>Projects 🚧</h2>
         </p>
-        <CardGroup>
+        <CardDeck>
           <Card>
             <Card.Body>
               <Card.Title>Personal Website</Card.Title>
@@ -171,43 +171,43 @@ export default function Home() {
               </Card.Text>
             </Card.Body>
           </Card>
-        </CardGroup>
-      <CardGroup>
-        <Card>
-            <Card.Body>
-              <Card.Title>Car Bazaar</Card.Title>
-              <Card.Text>
-                Website that would take in user input to create a car sale listing as well as adding a social media aspect
-                where users could share car-related media. Built with Flask, HTML, CSS, and Google Firebase. 
-                <br />
-                <br />
-                Rose Hack 2020 Best Domain.com Domain Winner
-              </Card.Text>
-            </Card.Body>
-          </Card>
+        </CardDeck>
+        <CardDeck>
           <Card>
-            <Card.Body>
-              <Card.Title>R'Shell</Card.Title>
-              <Card.Text>
-                UNIX-sylle shell that we had to create using C++ for CS100 (Object Oriented Design). This project 
-                helped us learn how to build something from the ground up, using design patterns that helped make the project
-                extensible.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card>
-            <Card.Body>
-              <Card.Title>Dealectable</Card.Title>
-              <Card.Text>
-                Android Application that would translate a printed menu into a text file on the application
-                using OpenCV and Google Firebase.
-                <br />
-                <br />
-                Submitted for Cutie Hack 2018
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </CardGroup>
+              <Card.Body>
+                <Card.Title>Car Bazaar</Card.Title>
+                <Card.Text>
+                  Website that would take in user input to create a car sale listing as well as adding a social media aspect
+                  where users could share car-related media. Built with Flask, HTML, CSS, and Google Firebase. 
+                  <br />
+                  <br />
+                  Rose Hack 2020 Best Domain.com Domain Winner
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Body>
+                <Card.Title>R'Shell</Card.Title>
+                <Card.Text>
+                  UNIX-sylle shell that we had to create using C++ for CS100 (Object Oriented Design). This project 
+                  helped us learn how to build something from the ground up, using design patterns that helped make the project
+                  extensible.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Body>
+                <Card.Title>Dealectable</Card.Title>
+                <Card.Text>
+                  Android Application that would translate a printed menu into a text file on the application
+                  using OpenCV and Google Firebase.
+                  <br />
+                  <br />
+                  Submitted for Cutie Hack 2018
+                </Card.Text>
+              </Card.Body>
+            </Card>
+        </CardDeck>
       </section>
       </Container>
     </div>
