@@ -2067,22 +2067,78 @@ class Profile extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
 
 }
 
-class HomeNav extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+class ProjectCard extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
   render() {
-    return __jsx("div", {
+    return __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a, {
+      onClick: () => {
+        let win = window.open(this.props.url, '_blank');
+        win.focus();
+      },
+      target: "_blank",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 28,
         columnNumber: 7
       }
-    }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"], {
-      bg: "light",
-      expand: "lg",
+    }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Body, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 32,
+        columnNumber: 13
+      }
+    }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Title, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 15
+      }
+    }, this.props.title, __jsx("br", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35,
+        columnNumber: 17
+      }
+    }), __jsx("span", {
+      className: "desc",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 17
+      }
+    }, this.props.date)), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Text, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38,
+        columnNumber: 15
+      }
+    }, this.props.description)));
+  }
+
+}
+
+class HomeNav extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  render() {
+    return __jsx("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50,
+        columnNumber: 7
+      }
+    }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"], {
+      bg: "light",
+      expand: "lg",
+      id: "nav",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51,
         columnNumber: 9
       }
     }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Brand, {
@@ -2090,7 +2146,7 @@ class HomeNav extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30,
+        lineNumber: 52,
         columnNumber: 11
       }
     }, "React-Bootstrap"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Toggle, {
@@ -2098,7 +2154,7 @@ class HomeNav extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31,
+        lineNumber: 53,
         columnNumber: 11
       }
     }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Collapse, {
@@ -2106,15 +2162,15 @@ class HomeNav extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32,
+        lineNumber: 54,
         columnNumber: 11
       }
     }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
-      className: "mr-auto",
+      className: "ml-auto",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33,
+        lineNumber: 55,
         columnNumber: 13
       }
     }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
@@ -2122,7 +2178,7 @@ class HomeNav extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
+        lineNumber: 56,
         columnNumber: 15
       }
     }, "About Me"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
@@ -2130,7 +2186,7 @@ class HomeNav extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35,
+        lineNumber: 57,
         columnNumber: 15
       }
     }, "Experience"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
@@ -2138,7 +2194,7 @@ class HomeNav extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36,
+        lineNumber: 58,
         columnNumber: 15
       }
     }, "Projects")))));
@@ -2152,30 +2208,30 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49,
+        lineNumber: 71,
         columnNumber: 7
+      }
+    }, __jsx("div", {
+      id: "header-banner",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 73,
+        columnNumber: 5
       }
     }, __jsx(HomeNav, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50,
-        columnNumber: 7
-      }
-    }), __jsx("div", {
-      id: "header-banner",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 51,
+        lineNumber: 74,
         columnNumber: 5
       }
-    }, __jsx("header", {
+    }), __jsx("header", {
       className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.header,
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52,
+        lineNumber: 75,
         columnNumber: 7
       }
     }, __jsx("img", {
@@ -2186,7 +2242,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53,
+        lineNumber: 77,
         columnNumber: 13
       }
     }), __jsx("h1", {
@@ -2194,7 +2250,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58,
+        lineNumber: 82,
         columnNumber: 13
       }
     }, 'Danial Beg'), __jsx("a", {
@@ -2202,7 +2258,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59,
+        lineNumber: 83,
         columnNumber: 13
       }
     }, __jsx("img", {
@@ -2210,7 +2266,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59,
+        lineNumber: 83,
         columnNumber: 35
       }
     })))));
@@ -2223,28 +2279,28 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 93,
       columnNumber: 5
     }
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_0___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 94,
       columnNumber: 7
     }
   }, __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 95,
       columnNumber: 9
     }
   }, "Danial's Portfolio")), __jsx(Header, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 98,
       columnNumber: 7
     }
   }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
@@ -2252,7 +2308,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 99,
       columnNumber: 5
     }
   }, __jsx("section", {
@@ -2261,49 +2317,49 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 100,
       columnNumber: 7
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 101,
       columnNumber: 9
     }
   }, __jsx("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 102,
       columnNumber: 11
     }
   }, "Hello! \uD83D\uDC4B")), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 104,
       columnNumber: 9
     }
   }, "I'm a 3rd year Computer Science major at the University of California, Riverside.", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82,
+      lineNumber: 106,
       columnNumber: 11
     }
   }), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 107,
       columnNumber: 11
     }
   }), "Currently, I'm looking for a summer 2021 Software Engineering Internship opportunity!"), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 110,
       columnNumber: 9
     }
   }, "Feel free to reach out if you would like to connect through  ", __jsx("a", {
@@ -2312,7 +2368,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 112,
       columnNumber: 20
     }
   }, "email"), " or ", __jsx("a", {
@@ -2321,21 +2377,21 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 112,
       columnNumber: 82
     }
   }, "LinkedIn"), "!"), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
+      lineNumber: 115,
       columnNumber: 9
     }
   }), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 116,
       columnNumber: 9
     }
   }, "Here you can find out more about my work experience as well as the personal projects I've worked on!")), __jsx("section", {
@@ -2344,21 +2400,21 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 121,
       columnNumber: 7
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 122,
       columnNumber: 11
     }
   }, __jsx("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 122,
       columnNumber: 14
     }
   }, "Experience \uD83D\uDCBB")), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -2366,14 +2422,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 124,
       columnNumber: 11
     }
   }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 125,
       columnNumber: 13
     }
   }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_6___default.a.Toggle, {
@@ -2382,7 +2438,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102,
+      lineNumber: 126,
       columnNumber: 15
     }
   }, __jsx("span", {
@@ -2390,7 +2446,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 127,
       columnNumber: 17
     }
   }, "\uD83D\uDE80 NASA Jet Propulsion Laboratory"), ", June 2020 - September 2020"), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_6___default.a.Collapse, {
@@ -2398,77 +2454,77 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 129,
       columnNumber: 15
     }
   }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Body, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 130,
       columnNumber: 17
     }
   }, __jsx("ul", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107,
+      lineNumber: 131,
       columnNumber: 19
     }
   }, __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108,
+      lineNumber: 132,
       columnNumber: 21
     }
   }, " Worked on the Europa Clipper mission where the main task was to translate over 50 English based flight rules into formal first-order logic to assist future software development teams in translating flight rules into modeling code. "), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 134,
       columnNumber: 21
     }
   }), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111,
+      lineNumber: 135,
       columnNumber: 21
     }
   }, " Created various different states as well as utilized interval algebra to create time-based logic statements, necessary for time-critical flight rules. "), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 136,
       columnNumber: 21
     }
   }), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113,
+      lineNumber: 137,
       columnNumber: 21
     }
   }, " Utilized Modelica to model the impacts of flight rule violations on various different spacecraft components in order to gain an understanding of the \u201Dworst possible outcome\u201D of a violated flight rule."), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 139,
       columnNumber: 23
     }
   }), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 140,
       columnNumber: 21
     }
   }, "Assisted a fellow design intern team in drafting up a front-end tool that utilized HTML, CSS, and Javascript, in order to lead to a more intuitive display of various flight rules for engineers not familiar with the current way flight rules, were expressed."))))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122,
+      lineNumber: 146,
       columnNumber: 13
     }
   }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_6___default.a.Toggle, {
@@ -2477,7 +2533,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 147,
       columnNumber: 15
     }
   }, __jsx("span", {
@@ -2485,7 +2541,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 148,
       columnNumber: 17
     }
   }, "\uD83D\uDD2C General Atomics"), ", June 2019 - September 2019"), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_6___default.a.Collapse, {
@@ -2493,140 +2549,31 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
-      columnNumber: 15
-    }
-  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Body, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 127,
-      columnNumber: 17
-    }
-  }, __jsx("ul", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 128,
-      columnNumber: 19
-    }
-  }, __jsx("li", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 129,
-      columnNumber: 21
-    }
-  }, " Deployed on-site at Lawrence Livermore National Laboratory working for the Nation Ignition Facility group (NIF). "), __jsx("br", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 130,
-      columnNumber: 21
-    }
-  }), __jsx("li", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 131,
-      columnNumber: 21
-    }
-  }, " Utilized Python to develop automated image analysis software for X-Ray spectroscopy from experiments conducted at NIF. "), __jsx("br", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 132,
-      columnNumber: 21
-    }
-  }), __jsx("li", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 133,
-      columnNumber: 21
-    }
-  }, " Increased efficiency and reduced processing time by over 80% by only downloading data that was pertinent to the analysis, thus allowing data collection and analysis to be done within a minute."), __jsx("br", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 135,
-      columnNumber: 21
-    }
-  }), __jsx("li", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 136,
-      columnNumber: 21
-    }
-  }, " Reduced analysis times while increasing accuracy to about 90% for image analysis done on a wide range of experimental data spanning over 5 years of experiments."), __jsx("br", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 138,
-      columnNumber: 21
-    }
-  }), __jsx("li", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 139,
-      columnNumber: 21
-    }
-  }, " Created a poster for the 2019 Lawrence Livermore National Lab Poster Symposium that was selected for the Top 5 of all the projects from the National Ignition Facility (NIF)"))))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 145,
-      columnNumber: 13
-    }
-  }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_6___default.a.Toggle, {
-    as: react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Header,
-    eventKey: "2",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 146,
-      columnNumber: 15
-    }
-  }, __jsx("span", {
-    className: "exp-header",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 147,
-      columnNumber: 17
-    }
-  }, "\u2600\uFE0F University of California, San Diego"), " Center for Energy Research, July 2017 - August 2017"), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_6___default.a.Collapse, {
-    eventKey: "2",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 149,
-      columnNumber: 15
-    }
-  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Body, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 150,
-      columnNumber: 17
+      columnNumber: 15
     }
-  }, __jsx("ul", {
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Body, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 151,
+      columnNumber: 17
+    }
+  }, __jsx("ul", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 152,
       columnNumber: 19
     }
   }, __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152,
+      lineNumber: 153,
       columnNumber: 21
     }
-  }, " Designed, tested, and implemented code that uses ComputerVision in Python to help identify the position of the sun and other objects in the sky with 75% accuracy. "), __jsx("br", {
+  }, " Deployed on-site at Lawrence Livermore National Laboratory working for the Nation Ignition Facility group (NIF). "), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -2640,18 +2587,127 @@ function Home() {
       lineNumber: 155,
       columnNumber: 21
     }
-  }, " The program, using a camera's live feed to get input, detected the brightest spots in the given scenario to help identify the location of the sun. "), __jsx("br", {
+  }, " Utilized Python to develop automated image analysis software for X-Ray spectroscopy from experiments conducted at NIF. "), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157,
+      lineNumber: 156,
       columnNumber: 21
     }
   }), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158,
+      lineNumber: 157,
+      columnNumber: 21
+    }
+  }, " Increased efficiency and reduced processing time by over 80% by only downloading data that was pertinent to the analysis, thus allowing data collection and analysis to be done within a minute."), __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 159,
+      columnNumber: 21
+    }
+  }), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 160,
+      columnNumber: 21
+    }
+  }, " Reduced analysis times while increasing accuracy to about 90% for image analysis done on a wide range of experimental data spanning over 5 years of experiments."), __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 162,
+      columnNumber: 21
+    }
+  }), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 163,
+      columnNumber: 21
+    }
+  }, " Created a poster for the 2019 Lawrence Livermore National Lab Poster Symposium that was selected for the Top 5 of all the projects from the National Ignition Facility (NIF)"))))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 169,
+      columnNumber: 13
+    }
+  }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_6___default.a.Toggle, {
+    as: react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Header,
+    eventKey: "2",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 170,
+      columnNumber: 15
+    }
+  }, __jsx("span", {
+    className: "exp-header",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 171,
+      columnNumber: 17
+    }
+  }, "\u2600\uFE0F University of California, San Diego"), " Center for Energy Research, July 2017 - August 2017"), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_6___default.a.Collapse, {
+    eventKey: "2",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 173,
+      columnNumber: 15
+    }
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Body, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 174,
+      columnNumber: 17
+    }
+  }, __jsx("ul", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 175,
+      columnNumber: 19
+    }
+  }, __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 176,
+      columnNumber: 21
+    }
+  }, " Designed, tested, and implemented code that uses ComputerVision in Python to help identify the position of the sun and other objects in the sky with 75% accuracy. "), __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 178,
+      columnNumber: 21
+    }
+  }), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 179,
+      columnNumber: 21
+    }
+  }, " The program, using a camera's live feed to get input, detected the brightest spots in the given scenario to help identify the location of the sun. "), __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 181,
+      columnNumber: 21
+    }
+  }), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 182,
       columnNumber: 21
     }
   }, " This was used to help improve weather predictions for solar power plants in order to change power output in anticipation of weather events."))))))), __jsx("section", {
@@ -2660,249 +2716,105 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167,
+      lineNumber: 191,
       columnNumber: 7
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168,
+      lineNumber: 192,
       columnNumber: 9
     }
   }, __jsx("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169,
+      lineNumber: 193,
       columnNumber: 11
     }
   }, "Projects \uD83D\uDEA7")), __jsx(react_bootstrap_CardDeck__WEBPACK_IMPORTED_MODULE_9___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171,
+      lineNumber: 195,
       columnNumber: 9
     }
-  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a, {
+  }, __jsx(ProjectCard, {
+    title: "Personal Website",
+    date: "September 2020 - Current",
+    description: "Working on adding new  features to this website! Built using a React framework, NextJS and hosted through Vercel!",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172,
+      lineNumber: 196,
       columnNumber: 11
     }
-  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Body, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 173,
-      columnNumber: 13
-    }
-  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Title, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 174,
-      columnNumber: 15
-    }
-  }, "Personal Website", __jsx("br", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 176,
-      columnNumber: 17
-    }
-  }), __jsx("span", {
-    className: "desc",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 177,
-      columnNumber: 17
-    }
-  }, "September 2020 - Current")), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Text, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 179,
-      columnNumber: 15
-    }
-  }, "Working on adding new features to this website! Built using a React framework, NextJS and hosted through Vercel!"))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 185,
-      columnNumber: 11
-    }
-  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Body, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 186,
-      columnNumber: 13
-    }
-  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Title, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 187,
-      columnNumber: 15
-    }
-  }, "F1 Predictions", __jsx("br", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 189,
-      columnNumber: 17
-    }
-  }), __jsx("span", {
-    className: "desc",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 190,
-      columnNumber: 17
-    }
-  }, "August 2020 - Current")), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Text, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 192,
-      columnNumber: 15
-    }
-  }, "Taking user input of F1 qualifying positions and comparing it to data from previous races in order to create a model that will predict the results of the race. All built out into a nice front-end website!"))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a, {
+  }), __jsx(ProjectCard, {
+    title: "F1 Predictions",
+    date: "August 2020 - Current",
+    description: "Taking user input of F1 qualifying positions  and comparing it to data from previous races in order to create a model that will predict the results of the race. All built  out into a nice front-end website!",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 198,
       columnNumber: 11
     }
-  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Body, {
+  }), __jsx(ProjectCard, {
+    title: "ACM@UCR Website",
+    date: "April 2020 - Current",
+    description: "Responsible for maintenance, adding new additions, and new implementing new features for ACM@UCR's website built with Node.JS, HTML, and SCSS.",
+    url: "https://acmucr.org/",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199,
-      columnNumber: 13
+      lineNumber: 201,
+      columnNumber: 11
     }
-  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Title, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 200,
-      columnNumber: 15
-    }
-  }, "ACM@UCR Website", __jsx("br", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 202,
-      columnNumber: 17
-    }
-  }), __jsx("span", {
-    className: "desc",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 203,
-      columnNumber: 17
-    }
-  }, "April 2020 - Current")), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Text, {
+  })), __jsx(react_bootstrap_CardDeck__WEBPACK_IMPORTED_MODULE_9___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 205,
-      columnNumber: 15
-    }
-  }, "Responsible for maintenance, adding new additions, and new implementing new features for ACM@UCR's website built with Node.JS, HTML, and SCSS.")))), __jsx(react_bootstrap_CardDeck__WEBPACK_IMPORTED_MODULE_9___default.a, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 212,
       columnNumber: 9
     }
-  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a, {
+  }, __jsx(ProjectCard, {
+    title: "Car Bazaar",
+    date: "Rose Hack 2020 Winner",
+    description: "Website that would take in user input to create a car  sale listing as well as adding a social media aspect where users could share car-related media.  Built with Flask, HTML, CSS, and Google Firebase. ",
+    url: "https://devpost.com/software/car-space-0qj8fo",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 213,
+      lineNumber: 206,
       columnNumber: 11
     }
-  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Body, {
+  }), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 214,
-      columnNumber: 15
-    }
-  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Title, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 215,
-      columnNumber: 17
-    }
-  }, "Car Bazaar", __jsx("br", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 217,
-      columnNumber: 19
-    }
-  }), __jsx("span", {
-    className: "desc",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 218,
-      columnNumber: 19
-    }
-  }, "Rose Hack 2020 Best Domain.com Domain Winner")), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Text, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 220,
-      columnNumber: 17
-    }
-  }, "Website that would take in user input to create a car sale listing as well as adding a social media aspect where users could share car-related media. Built with Flask, HTML, CSS, and Google Firebase.", __jsx("br", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 223,
-      columnNumber: 19
-    }
-  }), __jsx("br", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 224,
-      columnNumber: 19
-    }
-  })))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 229,
+      lineNumber: 210,
       columnNumber: 13
     }
   }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Body, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 230,
+      lineNumber: 211,
       columnNumber: 15
     }
   }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Title, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 231,
+      lineNumber: 212,
       columnNumber: 17
     }
   }, "R'Shell", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 233,
+      lineNumber: 214,
       columnNumber: 19
     }
   }), __jsx("span", {
@@ -2910,42 +2822,42 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 234,
+      lineNumber: 215,
       columnNumber: 19
     }
   }, "September 2019 - December 2019")), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Text, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 236,
+      lineNumber: 217,
       columnNumber: 17
     }
   }, "UNIX-sylle shell that we had to create using C++ for CS100 (Object Oriented Design). This project helped us learn how to build something from the ground up, using design patterns that helped make the project extensible."))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 243,
+      lineNumber: 224,
       columnNumber: 13
     }
   }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Body, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 244,
+      lineNumber: 225,
       columnNumber: 15
     }
   }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Title, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 245,
+      lineNumber: 226,
       columnNumber: 17
     }
   }, "Dealectable", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 247,
+      lineNumber: 228,
       columnNumber: 19
     }
   }), __jsx("span", {
@@ -2953,28 +2865,28 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 248,
+      lineNumber: 229,
       columnNumber: 19
     }
   }, "Submitted for Cutie Hack 2018")), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_7___default.a.Text, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 250,
+      lineNumber: 231,
       columnNumber: 17
     }
   }, "Android Application that would translate a printed menu into a text file on the application using OpenCV and Google Firebase.", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 253,
+      lineNumber: 234,
       columnNumber: 19
     }
   }), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 254,
+      lineNumber: 235,
       columnNumber: 19
     }
   }))))))));

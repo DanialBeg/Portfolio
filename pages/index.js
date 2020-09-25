@@ -22,15 +22,37 @@ class Profile extends React.Component {
   }
 }
 
+class ProjectCard extends React.Component {
+  render() {
+    return (
+      <Card onClick={ () => {
+        let win = window.open(this.props.url, '_blank');
+        win.focus()
+      }} target="_blank">
+            <Card.Body>
+              <Card.Title>
+                {this.props.title}
+                <br />
+                <span className="desc">{this.props.date}</span>
+              </Card.Title>
+              <Card.Text>
+                {this.props.description}
+              </Card.Text>
+            </Card.Body>
+          </Card>
+    )
+  }
+}
+
 class HomeNav extends React.Component {
   render(){
     return (
       <div>
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" expand="lg" id="nav">
           <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav className="ml-auto">
               <Nav.Link href="#home">About Me</Nav.Link>
               <Nav.Link href="#link">Experience</Nav.Link>
               <Nav.Link href="#link">Projects</Nav.Link>
@@ -47,9 +69,11 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-      <HomeNav/>
+      
     <div id="header-banner">
+    <HomeNav/>
       <header className={styles.header}>
+        
             <img
               src="/images/profile.jpg"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`} id={'profile-image'}
@@ -169,63 +193,20 @@ export default function Home() {
           <h2>Projects 🚧</h2>
         </p>
         <CardDeck>
-          <Card>
-            <Card.Body>
-              <Card.Title>
-                Personal Website
-                <br />
-                <span className="desc">September 2020 - Current</span>
-              </Card.Title>
-              <Card.Text>
-                Working on adding new features to this website! Built using a React framework, NextJS and hosted
-                through Vercel!
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card>
-            <Card.Body>
-              <Card.Title>
-                F1 Predictions
-                <br />
-                <span className="desc">August 2020 - Current</span>
-              </Card.Title>
-              <Card.Text>
-                Taking user input of F1 qualifying positions and comparing it to data from previous races in order
-                to create a model that will predict the results of the race. All built out into a nice front-end website!
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card>
-            <Card.Body>
-              <Card.Title>
-                ACM@UCR Website
-                <br />
-                <span className="desc">April 2020 - Current</span>
-                </Card.Title>
-              <Card.Text>
-                Responsible for maintenance, adding new additions, and new implementing new features for ACM@UCR's website built with
-                Node.JS, HTML, and SCSS.
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <ProjectCard title="Personal Website" date="September 2020 - Current" description="Working on adding new 
+            features to this website! Built using a React framework, NextJS and hosted through Vercel!"/>
+          <ProjectCard title="F1 Predictions" date="August 2020 - Current" description="Taking user input of F1 qualifying positions 
+            and comparing it to data from previous races in order to create a model that will predict the results of the race. All built 
+            out into a nice front-end website!"/>
+          <ProjectCard title="ACM@UCR Website" date="April 2020 - Current" description="Responsible for maintenance, adding new additions,
+           and new implementing new features for ACM@UCR's website built with Node.JS, HTML, and SCSS." 
+           url = "https://acmucr.org/"/>
         </CardDeck>
         <CardDeck>
-          <Card>
-              <Card.Body>
-                <Card.Title>
-                  Car Bazaar
-                  <br />
-                  <span className="desc">Rose Hack 2020 Best Domain.com Domain Winner</span>
-                </Card.Title>
-                <Card.Text>
-                  Website that would take in user input to create a car sale listing as well as adding a social media aspect
-                  where users could share car-related media. Built with Flask, HTML, CSS, and Google Firebase. 
-                  <br />
-                  <br />
-                  
-                </Card.Text>
-              </Card.Body>
-            </Card>
+          <ProjectCard title="Car Bazaar" date="Rose Hack 2020 Winner" description="Website that would take in user input to create a car 
+            sale listing as well as adding a social media aspect where users could share car-related media. 
+            Built with Flask, HTML, CSS, and Google Firebase. " 
+            url = "https://devpost.com/software/car-space-0qj8fo"/>
             <Card>
               <Card.Body>
                 <Card.Title>
