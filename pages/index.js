@@ -207,35 +207,15 @@ export default function Home() {
             sale listing as well as adding a social media aspect where users could share car-related media. 
             Built with Flask, HTML, CSS, and Google Firebase. " 
             url = "https://devpost.com/software/car-space-0qj8fo"/>
-            <Card>
-              <Card.Body>
-                <Card.Title>
-                  R'Shell
-                  <br />
-                  <span className="desc">September 2019 - December 2019</span>
-                  </Card.Title>
-                <Card.Text>
-                  UNIX-sylle shell that we had to create using C++ for CS100 (Object Oriented Design). This project 
-                  helped us learn how to build something from the ground up, using design patterns that helped make the project
-                  extensible.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card>
-              <Card.Body>
-                <Card.Title>
-                  Dealectable
-                  <br />
-                  <span className="desc">Submitted for Cutie Hack 2018</span>
-                </Card.Title>
-                <Card.Text>
-                  Android Application that would translate a printed menu into a text file on the application
-                  using OpenCV and Google Firebase.
-                  <br />
-                  <br />
-                </Card.Text>
-              </Card.Body>
-            </Card>
+
+          <ProjectCard title="R'Shell" date="September 2019 - December 2019" description="UNIX-sylle shell that we had to create using C++ 
+            for CS100 (Object Oriented Design). This project helped us learn how to build something from the ground up, using design 
+            patterns that helped make the project extensible." 
+            url = "https://github.com/DanialBeg/RShell-CS100-Fall-2019"/>
+
+          <ProjectCard title="Dealectable" date="Submitted for Cutie Hack 2018" description="Android Application that would translate a 
+            printed menu into a text file on the application using OpenCV and Google Firebase." 
+            url = "https://devpost.com/software/dealectable"/>
         </CardDeck>
       </section>
       </Container>
