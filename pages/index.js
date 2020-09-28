@@ -9,6 +9,7 @@ import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
 import CardDeck from 'react-bootstrap/CardDeck'
 import Button from 'react-bootstrap/Button'
+import {Nav, Navbar, NavDropdown, Form, FormControl} from 'react-bootstrap'
 
 
 class Profile extends React.Component {
@@ -21,12 +22,57 @@ class Profile extends React.Component {
   }
 }
 
+class ProjectCard extends React.Component {
+  render() {
+    return (
+      <Card onClick={ () => {
+        let win = window.open(this.props.url, '_blank');
+        win.focus()
+      }} target="_blank">
+            <Card.Body>
+              <Card.Title>
+                {this.props.title}
+                <br />
+                <span className="desc">{this.props.date}</span>
+              </Card.Title>
+              <Card.Text>
+                {this.props.description}
+              </Card.Text>
+            </Card.Body>
+          </Card>
+    )
+  }
+}
+
+class HomeNav extends React.Component {
+  render(){
+    return (
+      <div>
+        <Navbar bg="light" expand="lg" id="nav">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ml-auto">
+              <Nav.Link href="#home">About Me</Nav.Link>
+              <Nav.Link href="#link">Experience</Nav.Link>
+              <Nav.Link href="#link">Projects</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+      </div>
+    )
+    }
+}
+
 
 class Header extends React.Component {
   render() {
     return (
+      <div>
+      
     <div id="header-banner">
+    <HomeNav/>
       <header className={styles.header}>
+        
             <img
               src="/images/profile.jpg"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`} id={'profile-image'}
@@ -35,6 +81,7 @@ class Header extends React.Component {
             <h1 className={utilStyles.heading2Xl}>{'Danial Beg'}</h1>
             <a href={'#about-me'}><img src={"images/arrow-down-1.png"}></img></a>
       </header>
+    </div>
     </div>
     )
   }
@@ -46,6 +93,7 @@ export default function Home() {
       <Head>
         <title>Danial's Portfolio</title>
       </Head>
+      
       <Header/>
     <Container id={'main-content'}>
       <section className={utilStyles.headingMd} id='about-me'>
@@ -144,69 +192,29 @@ export default function Home() {
           <h2>Projects 🚧</h2>
         </p>
         <CardDeck>
-          <Card>
-            <Card.Body>
-              <Card.Title>Personal Website</Card.Title>
-              <Card.Text>
-                Working on adding new features to this website! Built using a React framework, NextJS and hosted
-                through Vercel!
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card>
-            <Card.Body>
-              <Card.Title>F1 Predictions</Card.Title>
-              <Card.Text>
-                Taking user input of F1 qualifying positions and comparing it to data from previous races in order
-                to create a model that will predict the results of the race. All built out into a nice front-end website!
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card>
-            <Card.Body>
-              <Card.Title>ACM@UCR Website</Card.Title>
-              <Card.Text>
-                Responsible for maintenance, adding new additions, and new implementing new features for ACM@UCR's website built with
-                Node.JS, HTML, and SCSS.
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <ProjectCard title="Personal Website" date="September 2020 - Current" description="Working on adding new 
+            features to this website! Built using a React framework, NextJS and hosted through Vercel!"/>
+          <ProjectCard title="F1 Predictions" date="August 2020 - Current" description="Taking user input of F1 qualifying positions 
+            and comparing it to data from previous races in order to create a model that will predict the results of the race. All built 
+            out into a nice front-end website!"/>
+          <ProjectCard title="ACM@UCR Website" date="April 2020 - Current" description="Responsible for maintenance, adding new additions,
+           and new implementing new features for ACM@UCR's website built with Node.JS, HTML, and SCSS." 
+           url = "https://acmucr.org/"/>
         </CardDeck>
         <CardDeck>
-          <Card>
-              <Card.Body>
-                <Card.Title>Car Bazaar</Card.Title>
-                <Card.Text>
-                  Website that would take in user input to create a car sale listing as well as adding a social media aspect
-                  where users could share car-related media. Built with Flask, HTML, CSS, and Google Firebase. 
-                  <br />
-                  <br />
-                  Rose Hack 2020 Best Domain.com Domain Winner
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card>
-              <Card.Body>
-                <Card.Title>R'Shell</Card.Title>
-                <Card.Text>
-                  UNIX-sylle shell that we had to create using C++ for CS100 (Object Oriented Design). This project 
-                  helped us learn how to build something from the ground up, using design patterns that helped make the project
-                  extensible.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card>
-              <Card.Body>
-                <Card.Title>Dealectable</Card.Title>
-                <Card.Text>
-                  Android Application that would translate a printed menu into a text file on the application
-                  using OpenCV and Google Firebase.
-                  <br />
-                  <br />
-                  Submitted for Cutie Hack 2018
-                </Card.Text>
-              </Card.Body>
-            </Card>
+          <ProjectCard title="Car Bazaar" date="Rose Hack 2020 Winner" description="Website that would take in user input to create a car 
+            sale listing as well as adding a social media aspect where users could share car-related media. 
+            Built with Flask, HTML, CSS, and Google Firebase. " 
+            url = "https://devpost.com/software/car-space-0qj8fo"/>
+
+          <ProjectCard title="R'Shell" date="September 2019 - December 2019" description="UNIX-sylle shell that we had to create using C++ 
+            for CS100 (Object Oriented Design). This project helped us learn how to build something from the ground up, using design 
+            patterns that helped make the project extensible." 
+            url = "https://github.com/DanialBeg/RShell-CS100-Fall-2019"/>
+
+          <ProjectCard title="Dealectable" date="Submitted for Cutie Hack 2018" description="Android Application that would translate a 
+            printed menu into a text file on the application using OpenCV and Google Firebase." 
+            url = "https://devpost.com/software/dealectable"/>
         </CardDeck>
       </section>
       </Container>

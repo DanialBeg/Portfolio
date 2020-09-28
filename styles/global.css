@@ -48,6 +48,7 @@ p {
 
 .card {
   margin: 16px 0;
+  cursor: pointer;
 }
 
 .card-body {
@@ -75,5 +76,15 @@ p {
 
 .exp-header {
   font-weight: 700;
+}
+
+.desc {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 10pt;
+}
+
+#nav {
+  background-color: transparent !important;
 }
 
