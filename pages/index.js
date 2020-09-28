@@ -49,7 +49,6 @@ class HomeNav extends React.Component {
     return (
       <div>
         <Navbar bg="light" expand="lg" id="nav">
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
