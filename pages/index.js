@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { Container, Nav } from 'react-bootstrap'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import styles from '../components/layout.module.css'
@@ -9,14 +9,13 @@ import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
 import CardDeck from 'react-bootstrap/CardDeck'
 import Button from 'react-bootstrap/Button'
-import {Nav, Navbar, NavDropdown, Form, FormControl} from 'react-bootstrap'
+import HomeNav from "../pages/Nav"
 
 
 class Profile extends React.Component {
   render() {
     return (
       <div id='profile-photo'>
-
       </div>
     )
   }
@@ -44,33 +43,13 @@ class ProjectCard extends React.Component {
   }
 }
 
-class HomeNav extends React.Component {
-  render(){
-    return (
-      <div>
-        <Navbar bg="light" expand="lg" id="nav">
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
-              <Nav.Link href="#home">About Me</Nav.Link>
-              <Nav.Link href="#link">Experience</Nav.Link>
-              <Nav.Link href="#link">Projects</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-      </div>
-    )
-    }
-}
-
-
 class Header extends React.Component {
   render() {
     return (
       <div>
       
     <div id="header-banner">
-    <HomeNav/>
+    <HomeNav />
       <header className={styles.header}>
         
             <img
