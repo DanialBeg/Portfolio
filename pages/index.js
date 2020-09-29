@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
-import { Container, Nav } from 'react-bootstrap'
+import { Container, Nav} from 'react-bootstrap'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import styles from '../components/layout.module.css'
@@ -10,6 +10,7 @@ import CardGroup from 'react-bootstrap/CardGroup'
 import CardDeck from 'react-bootstrap/CardDeck'
 import Button from 'react-bootstrap/Button'
 import HomeNav from "../pages/Nav"
+import ProjectCard from "../pages/Projects"
 
 
 class Profile extends React.Component {
@@ -17,28 +18,6 @@ class Profile extends React.Component {
     return (
       <div id='profile-photo'>
       </div>
-    )
-  }
-}
-
-class ProjectCard extends React.Component {
-  render() {
-    return (
-      <Card onClick={ () => {
-        let win = window.open(this.props.url, '_blank');
-        win.focus()
-      }} target="_blank">
-            <Card.Body>
-              <Card.Title>
-                {this.props.title}
-                <br />
-                <span className="desc">{this.props.date}</span>
-              </Card.Title>
-              <Card.Text>
-                {this.props.description}
-              </Card.Text>
-            </Card.Body>
-          </Card>
     )
   }
 }
