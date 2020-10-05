@@ -41,7 +41,6 @@ img {
   margin-bottom: 12vh;
 }
 
-
 p {
   font-size: 14pt;
 }
@@ -86,5 +85,15 @@ p {
 
 #nav {
   background-color: transparent !important;
+
+}
+
+.ml-auto {
+  background-color: white;
+  box-shadow:  20px 20px 60px #c5c9c4, 
+             -20px -20px 60px #ffffff;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 20px;
 }
 
