@@ -40,9 +40,10 @@ class Footer extends React.Component {
 
                         {/* Column 4 */}
                         <div className="col-md-3 col-sm-6">
-                            
+
                         </div>
                     </div>
+                    
                 </div>
             </footer>
         );
