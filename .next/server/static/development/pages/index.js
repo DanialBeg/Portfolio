@@ -2068,7 +2068,7 @@ class HomeNav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         columnNumber: 15
       }
     }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Link, {
-      href: "#home",
+      href: "#about-me",
       __self: this,
       __source: {
         fileName: _jsxFileName,
