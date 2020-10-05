@@ -21009,7 +21009,63 @@ var Footer = /*#__PURE__*/function (_React$Component) {
           lineNumber: 8,
           columnNumber: 13
         }
-      });
+      }, __jsx("div", {
+        className: "container",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 17
+        }
+      }, __jsx("div", {
+        className: "row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 21
+        }
+      }, __jsx("div", {
+        className: "col-md-3 col-sm-6",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 25
+        }
+      }, __jsx("p", {
+        className: "quote-text",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13,
+          columnNumber: 29
+        }
+      }, "If a person has no dreams, they no longer have any reason to live. Dreaming is necessary, although in the dream reality should be glimpsed.\" - Ayrton Senna")), __jsx("div", {
+        className: "col-md-3 col-sm-6",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20,
+          columnNumber: 25
+        }
+      }), __jsx("div", {
+        className: "col-md-3 col-sm-6",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 25
+        }
+      }), __jsx("div", {
+        className: "col-md-3 col-sm-6",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 25
+        }
+      }))));
     }
   }]);
 
