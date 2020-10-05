@@ -145,7 +145,7 @@ export default function Home() {
           </Accordion>
       </section>
 
-      <section className={utilStyles.headingMd} id='experience'>
+      <section className={utilStyles.headingMd} id='projects'>
         <p>
           <h2>Projects 🚧</h2>
         </p>

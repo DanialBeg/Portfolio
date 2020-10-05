@@ -2076,7 +2076,7 @@ class HomeNav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         columnNumber: 17
       }
     }, "About Me"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Link, {
-      href: "#link",
+      href: "#experience",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -2084,7 +2084,7 @@ class HomeNav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         columnNumber: 17
       }
     }, "Experience"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Link, {
-      href: "#link",
+      href: "#projects",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -2747,7 +2747,7 @@ function Home() {
     }
   }, " This was used to help improve weather predictions for solar power plants in order to change power output in anticipation of weather events."))))))), __jsx("section", {
     className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.headingMd,
-    id: "experience",
+    id: "projects",
     __self: this,
     __source: {
       fileName: _jsxFileName,

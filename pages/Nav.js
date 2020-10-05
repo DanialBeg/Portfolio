@@ -9,8 +9,8 @@ export default class HomeNav extends React.Component {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ml-auto">
                 <Nav.Link href="#home">About Me</Nav.Link>
-                <Nav.Link href="#link">Experience</Nav.Link>
-                <Nav.Link href="#link">Projects</Nav.Link>
+                <Nav.Link href="#experience">Experience</Nav.Link>
+                <Nav.Link href="#projects">Projects</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
