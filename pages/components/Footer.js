@@ -18,13 +18,6 @@ class Footer extends React.Component {
 
                         {/* Column 2 */}
                         <div className="col-md-3 col-sm-6">
-                            {/* <h4>Danial Beg</h4>
-                            <ul className="list-unstyled">
-                                <li>Loren Ipsum</li>
-                                <li>Loren Ipsum</li>
-                                <li>Loren Ipsum</li>
-                                <li>Loren Ipsum</li>
-                            </ul> */}
                         </div>
 
                         {/* Column 3 */}
