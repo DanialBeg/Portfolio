@@ -152,7 +152,8 @@ export default function Home() {
           </p>
           <CardDeck>
             <ProjectCard title="Personal Website" date="September 2020 - Current" description="Working on adding new 
-              features to this website! Built using a React framework, NextJS and hosted through Vercel!"/>
+              features to this website! Built using a React framework, NextJS and hosted through Vercel!"
+              url = "https://danialbeg.vercel.app/"/>
             <ProjectCard title="F1 Predictions" date="August 2020 - Current" description="Taking user input of F1 qualifying positions 
               and comparing it to data from previous races in order to create a model that will predict the results of the race. All built 
               out into a nice front-end website!"/>
@@ -174,6 +175,10 @@ export default function Home() {
             <ProjectCard title="Dealectable" date="Submitted for Cutie Hack 2018" description="Android Application that would translate a 
               printed menu into a text file on the application using OpenCV and Google Firebase." 
               url = "https://devpost.com/software/dealectable"/>
+
+            <ProjectCard title="Salomondrin's Garage" date="November 2018" description="Google Assistant application that interacts with a user and informs
+              them about details relating to YouTuber, Salomondrin." 
+              url = "https://assistant.google.com/services/a/uid/0000001ee474ec74?hl=en-US"/>
           </CardDeck>
         </section>
         <Footer />
