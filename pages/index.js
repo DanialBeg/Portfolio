@@ -63,7 +63,8 @@ export default function Home() {
             I'm a 3rd year Computer Science major at the University of California, Riverside. 
             <br/>
             <br/>
-            Currently, I'm looking for a summer 2021 Software Engineering Internship opportunity!
+            Currently, I'm looking for a summer 2021 Software Engineering Internship opportunity! I currently serve as the Vice President of
+            ACM@UCR and the Director of Cutie Hack and Citrus Hack at UCR.
           </p>
           <p>
             Feel free to reach out if you would like to connect 
@@ -72,7 +73,8 @@ export default function Home() {
           </p>
           <br />
           <p>
-            Here you can find out more about my work experience as well as the personal projects I've worked on!
+            Here you can find out more about my work experience as well as the personal projects I've worked on! You can find the code by clicking
+            on a project card or checking out my <a href="https://github.com/DanialBeg" target="_blank">GitHub</a>.
           </p>
         </section>
 

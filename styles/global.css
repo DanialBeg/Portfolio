@@ -37,6 +37,7 @@ img {
   background: url('/images/london.jpg');
   background-size: cover;
   width: 100vw;
+  height: auto;
   filter: brightness(1.05);
   margin-bottom: 12vh;
 }
