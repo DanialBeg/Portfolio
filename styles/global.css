@@ -37,6 +37,7 @@ img {
   background: url('/images/london.jpg');
   background-size: cover;
   width: 100vw;
+  height: auto;
   filter: brightness(1.05);
   margin-bottom: 12vh;
 }
@@ -96,4 +97,25 @@ p {
   padding: 5px;
   margin: 20px;
 }
+
+.container-footer {
+  background-color: white;
+  padding: 0px 0px 10px 0px; 
+  width: 1440px;
+}
+
+.footer-wrapper {
+  border: 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 0 solid transparent;
+  box-sizing: content-box;
+  overflow: visible;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.quote-text {
+  font-size: medium;
+}
+
 
