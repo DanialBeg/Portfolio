@@ -1,4 +1,4 @@
-import { IWebpackConformanceTest, IGetAstNodeResult } from '../TestInterface';
+import { IGetAstNodeResult, IWebpackConformanceTest } from '../TestInterface';
 export interface DuplicatePolyfillsConformanceTestSettings {
     BlockedAPIToBePolyfilled?: string[];
 }

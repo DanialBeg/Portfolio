@@ -7,3 +7,4 @@ const packageJsonPath=await(0,_findUp.default)('package.json',{cwd:directory});i
 const filePath=await(0,_findUp.default)([`.${key}rc.json`,`${key}.config.json`,`.${key}rc.js`,`${key}.config.js`],{cwd:directory});if(filePath){if(filePath.endsWith('.js')){return require(filePath);}// We load JSON contents with JSON5 to allow users to comment in their
 // configuration file. This pattern was popularized by TypeScript.
 const fileContents=_fs.default.readFileSync(filePath,'utf8');return _json.default.parse(fileContents);}return null;}
+//# sourceMappingURL=find-config.js.map

@@ -12,6 +12,8 @@ export declare class Telemetry {
     private conf;
     private sessionId;
     private rawProjectId;
+    private NEXT_TELEMETRY_DISABLED;
+    private NEXT_TELEMETRY_DEBUG;
     private queue;
     constructor({ distDir }: {
         distDir: string;

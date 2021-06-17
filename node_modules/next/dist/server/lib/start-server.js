@@ -2,3 +2,4 @@
 srv.on('error',reject);srv.on('listening',()=>resolve());srv.listen(port,hostname);});// It's up to caller to run `app.prepare()`, so it can notify that the server
 // is listening before starting any intensive operations.
 return app;}
+//# sourceMappingURL=start-server.js.map
