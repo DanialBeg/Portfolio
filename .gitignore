@@ -1,6 +1,8 @@
 .vercel
 
 .DS_STORE
+.env.local
+.next
 node_modules
 scripts/flow/*/.flowconfig
 .flowconfig
